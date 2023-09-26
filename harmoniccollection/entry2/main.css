@@ -13,6 +13,9 @@ body{background-color: #EFEFEF}
          left: 0px;
          font-size: 38px;
          font-family: sans-serif;}
+.link1:hover{
+        border-bottom: 2px solid;
+        color: black;}
 
 .feeling2{width: 800px;
          height: 90px;
@@ -27,6 +30,9 @@ body{background-color: #EFEFEF}
          right: 0px;
          font-size: 38px;
          font-family: sans-serif;}
+.link2:hover{
+        border-bottom: 2px solid;
+        color: white;}
 
 .circle1{width: 400px;
         height: 400px;

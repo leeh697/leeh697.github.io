@@ -14,57 +14,69 @@ body{color: #6a6a6a;}
 .assignment1{transform: translate(10px,20px);
 			 font-size: 16px;
 			 font-family: sans-serif;}
-.assignment1:hover{color: white;}
+.assignment1:hover{color: white;
+                   font-size: 1.07em;}
 
 .assignment2{transform: translate(40px,90px);
 			 font-size: 55px;
 			 font-family: sans-serif;
 			 }
-.assignment2:hover{color: white;}
+.assignment2:hover{color: white;
+                   font-size: 3.5em;}
 
 .assignment3{transform: translate(970px,500px);
 			 font-size: 48px;
 			 font-family: sans-serif;}
-.assignment3:hover{color: white;}
+.assignment3:hover{color: white;
+                   font-size: 3.1em;}
 
 .sleep1{transform: translate(100px,600px);
 		font-size: 35px;
 		font-family: 'Lora', serif;}
-.sleep1:hover{color: white;}
+.sleep1:hover{color: white;
+              font-size: 2.25em;}
 
 .friends1{transform: translate(1010px,70px);
 		  font-size: 25px;
 		  font-family: 'Open Sans', sans-serif;}
-.friends1:hover{color: white;}
+.friends1:hover{color: white;
+                font-size: 1.6em;}
 
 .friends2{transform: translate(500px,258px);
 		  font-size: 25px;
 		  font-family: 'Open Sans', sans-serif;}
-.friends2:hover{color: white;}
+.friends2:hover{color: white;
+                font-size: 1.6em;}
 
 .shopping1{transform: translate(40px,350px);
 		   font-size: 20px}
-.shopping1:hover{color: white;}
+.shopping1:hover{color: white;
+                 font-size: 1.3em;}
 
 .grocery1{transform: translate(210px,-60px);
 		  font-size: 15px;}
-.grocery1:hover{color: white;}
+.grocery1:hover{color: white;
+          font-size: 1em;}
 
 .part1{font-family: 'burgess-regular';}
-.part1:hover{color: white;}
+.part1:hover{color: white;
+             font-size: 1.1em;}
 
 .part2{transform: translate(1100px,150px);
 	   font-family: 'burgess-regular';}
-.part2:hover{color: white;}
+.part2:hover{color: white;
+             font-size: 1.1em;}
 
 .part3{transform: translate(1550px,-700px);
 	   font-family: 'Barriecito';
-	   font-size: 25px}
-.part3:hover{color: white;}
+	   font-size: 25px;}
+.part3:hover{color: white;
+       font-size: 1.7em;}
 
 .part4{transform: translate(1600px,-640px);
 	   font-family: 'burgess-regular';}
-.part4:hover{color: white;}
+.part4:hover{color: white;
+             font-size: 1.1em;}
 
 #userInput {
     width: 600px; 
