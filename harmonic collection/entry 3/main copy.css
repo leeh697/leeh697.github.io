@@ -1,0 +1,99 @@
+body{
+background: rgb(0,0,0);
+background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(50,50,50,1) 91%, rgba(56,56,56,1) 96%, rgba(62,62,62,1) 100%);
+}
+
+body{color: #6a6a6a;}
+
+.text-effect {
+    font-size: initial;
+    font-family: intial;
+    transform: initial;
+} 
+
+.assignment1{transform: translate(10px,20px);
+			 font-size: 16px;
+			 font-family: sans-serif;}
+.assignment1:hover{color: white;}
+
+.assignment2{transform: translate(40px,90px);
+			 font-size: 55px;
+			 font-family: sans-serif;
+			 }
+.assignment2:hover{color: white;}
+
+.assignment3{transform: translate(970px,500px);
+			 font-size: 48px;
+			 font-family: sans-serif;}
+.assignment3:hover{color: white;}
+
+.sleep1{transform: translate(100px,600px);
+		font-size: 35px;
+		font-family: 'Lora', serif;}
+.sleep1:hover{color: white;}
+
+.friends1{transform: translate(1010px,70px);
+		  font-size: 25px;
+		  font-family: 'Open Sans', sans-serif;}
+.friends1:hover{color: white;}
+
+.friends2{transform: translate(500px,258px);
+		  font-size: 25px;
+		  font-family: 'Open Sans', sans-serif;}
+.friends2:hover{color: white;}
+
+.shopping1{transform: translate(40px,350px);
+		   font-size: 20px}
+.shopping1:hover{color: white;}
+
+.grocery1{transform: translate(210px,-60px);
+		  font-size: 15px;}
+.grocery1:hover{color: white;}
+
+.part1{font-family: 'burgess-regular';}
+.part1:hover{color: white;}
+
+.part2{transform: translate(1100px,150px);
+	   font-family: 'burgess-regular';}
+.part2:hover{color: white;}
+
+.part3{transform: translate(1550px,-700px);
+	   font-family: 'Barriecito';
+	   font-size: 25px}
+.part3:hover{color: white;}
+
+.part4{transform: translate(1600px,-640px);
+	   font-family: 'burgess-regular';}
+.part4:hover{color: white;}
+
+#userInput {
+    width: 600px; 
+    height: 10px; 
+    font-size: 16px;
+    background-color: #6a6a6a;
+    color: white;
+    padding: 10px; 
+    border: 1px solid #ccc;
+    transform: translate(1550px,-710px);}
+.userInput:hover{color: white;}
+
+@font-face {
+    font-family: 'Barriecito';
+    src: url('Barriecito-Regular.woff2') format('woff2'),
+        url('Barriecito-Regular.woff') format('woff'),
+        url('Barriecito-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+ @font-face {    font-family: 'burgess-regular';
+    src: url('../fonts/burgess-regular.eot');
+    src: url('../fonts/burgess-regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/burgess-regular.woff') format('woff'),
+         url('../fonts/burgess-regular.woff2') format('woff2'),
+         url('../fonts/burgess-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+

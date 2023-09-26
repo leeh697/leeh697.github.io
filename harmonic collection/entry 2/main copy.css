@@ -1,0 +1,116 @@
+body{background-color: #EFEFEF}
+
+.feeling1{width: 800px;
+         height: 90px;
+         background-color: #FFFFFF;
+         border-radius: 0%;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         color: black;
+         position: absolute;
+         top: 0px;
+         left: 0px;
+         font-size: 38px;
+         font-family: sans-serif;}
+
+.feeling2{width: 800px;
+         height: 90px;
+         background-color: #000000;
+         border-radius: 0%;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         color: white;
+         position: absolute;
+         top: 0px;
+         right: 0px;
+         font-size: 38px;
+         font-family: sans-serif;}
+
+.circle1{width: 400px;
+        height: 400px;
+        background-color: #E56B45;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: black;
+        position: absolute;
+        bottom: 60px;
+        left: 50px;
+        font-size: 38px;
+        font-family: serif;
+        }
+
+.circle2{width: 350px;
+         height: 250px;
+         background-color: #D1E26A;
+         border-radius: 50%;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         color: black;
+         position: absolute;
+         top: 130px;
+         left: 150px;
+         font-size: 38px;
+         font-family: cursive;}
+
+.circle3{width: 400px;
+         height: 400px;
+         background-color: #5BA9DD;
+         border-radius: 50%;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         color: black;
+         position: absolute;
+         bottom: 225px;
+         left: 455px;
+         font-size: 38px;
+         font-family: monospace;}
+
+.circle4{width: 450px;
+         height: 450px;
+         background-color: #EC9FE1;
+         border-radius: 50%;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         color: black;
+         position: absolute;
+         bottom: 65px;
+         right: 10px;
+         font-size: 38px;
+         font-family: fantasy;}
+
+.circle5{width: 650px;
+         height: 230px;
+         background-color: #D1E26A;
+         border-radius: 50%;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         color: black;
+         position: absolute;
+         bottom: 65px;
+         left: 500px;
+         font-size: 38px;
+         font-family: cursive;}
+
+.circle6{width: 380px;
+        height: 250px;
+        background-color: #E56B45;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: black;
+        position: absolute;
+        top: 150px;
+        right: 300px;
+        font-size: 38px;
+        font-family: sans-serif;
+        }
+
