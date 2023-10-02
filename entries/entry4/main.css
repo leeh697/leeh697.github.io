@@ -1,0 +1,227 @@
+body{background: #FBEAEB;
+   	 max-width: 100%;
+     overflow-x: hidden;}
+
+img{max-width: 65%;
+	position: absolute;
+	justify-content: center;
+	top: 270px;
+	left: 270px;}
+
+
+.line{border: 1px solid #2F3C7E;
+	width: 100%;
+	margin: 0 auto;
+	margin-top: 1vh;
+}
+
+.top{font-size: 40px;
+	top: 30px;
+	font-family: sans-serif;
+	font-size: 20px;
+	text-align: center;
+	color: #2F3C7E}
+
+.imgage1:hover:after{
+	transform: scale(1.1);
+	cursor: pointer;
+	content: url('imgs/eyee-02.png');}
+
+.sleeping{position: absolute;
+		  top:980px;
+		  left: 100px;
+		  font-family: 'Space Grotesk', sans-serif;
+		  font-weight: 400;
+		  font-size: 35px;
+		  color: #2F3C7E}
+
+.box1{width: 590px;
+	height: 500px;
+	border: 2px solid;
+	border-color: #2F3C7E;
+	transform: translate(90px,1000px);
+	top: 1080px;
+ 	left: 300px;}
+
+.box1text{font-size: 23px;
+   		  font-weight: 300;
+    	  font-family: 'Space Grotesk', sans-serif;
+		  transform: translate(115px,500px);}
+
+.timetable{position: absolute;
+		top:980px;
+		left: 763px;
+		font-family: 'Space Grotesk', sans-serif;
+		font-weight: 400;
+		font-size: 35px;
+		color: #2F3C7E;}
+
+table{width: 650px;
+	height: 500px;
+	border-collapse: collapse;
+	transform: translate(750px,213px);}
+
+td{padding: 10px; 
+    border: 2px solid #2F3C7E;
+    text-align: center; 
+    background-color: #FBEAEB;
+    color: #333;
+    font-size: 16px;
+	font-family: 'Space Grotesk', sans-serif;}
+
+td.hoverable:hover{
+	background-color: #2F3C7E;
+	color:#FBEAEB;
+	font-size: 1.5em;
+}
+
+.box2{width: 2000px;
+	height: 400px;
+	border: 2px solid;
+	border-color: #FBEAEB;
+	background-color: #2F3C7E;
+	transform: translate(-10px,315px);
+	top: 900px;
+ 	left: 300px;}
+
+.note{transform: translate(437px,-72px);
+	  font-size: 24px;
+	  color:#FBEAEB;
+	  font-family: 'Space Grotesk', sans-serif;
+}
+
+.line2{border: 1px solid#FBEAEB;
+	width: 43%;
+	margin: 7auto;
+	margin-top: 10vh;
+	transform: translate(-121px,-135px);}
+
+.note2{transform: translate(550px,-49px);
+	  font-size: 24px;
+	  color:#FBEAEB;
+	  font-family: 'Space Grotesk', sans-serif;
+
+	}
+
+.end{transform: translate(-550px,80px);
+	  font-size: 40px;
+	  color:#2F3C7E;
+	  font-family:sans-serif;
+	  font-weight: bold;
+	  text-align: center;
+	  line-height: 0.8}
+
+.sticker{position: absolute;}
+
+.circle1{width: 190px;
+        height: 120px;
+        background-color: #E56B45;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: black;
+        position: absolute;
+        bottom: -230px;
+        left: -280px;
+        font-size: 22px;
+        font-family: sans-serif;
+        }
+.link1:hover{border-bottom: 2px solid;
+			color: #FBEAEB;
+}
+
+.circle2{width: 260px;
+		height: 110px;
+		background-color: #5BA9DD;
+		border-radius: 50%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		color: black;
+		position: absolute;
+		bottom: -260px;
+		left: -70px;
+		font-size: 22px;
+		font-family: sans-serif;}
+.link2:hover{border-bottom: 2px solid;
+			color: #FBEAEB;
+}
+
+.circle3{width: 230px;
+		height: 90px;
+		background-color: #EC9FE1;
+		border-radius: 50%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		color: black;
+		position: absolute;
+		bottom: -175px;
+		left: 100px;
+		font-size: 22px;
+		font-family: sans-serif;}
+.link3:hover{border-bottom: 2px solid;
+			color: #FBEAEB;
+}
+
+
+.circle4{width: 200px;
+		height: 100px;
+		background-color: #D1E26A;
+		border-radius: 50%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		color: black;
+		position: absolute;
+		bottom: -190px;
+		left: 310px;
+		font-size: 22px;
+		font-family: sans-serif;}
+.link4:hover{border-bottom: 2px solid;
+			color: #FBEAEB;
+}
+
+
+.circle5{width: 170px;
+		height: 90px;
+		background-color: #E56B45;
+		border-radius: 50%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		color: black;
+		position: absolute;
+		bottom: -220px;
+		left: 520px;
+		font-size: 22px;
+		font-family: sans-serif;}
+.link5:hover{border-bottom: 2px solid;
+			color: #FBEAEB;
+}
+
+
+.line3{border: 1px solid #FBEAEB;
+	width: 100%;
+	margin: 0 auto;
+	margin-top: 40vh;
+}
+
+
+.line4{border: 1px solid#2F3C7E;
+	width: 100%;
+	margin: 0 auto;
+	margin-bottom:10vh;
+	transform: translate(-550px,155px);}
+
+.bottom{font-size: 20px;
+		font-family: sans-serif;
+		text-align: center;
+		color: #2F3C7E;
+		transform: translate(-544px,40px);
+		}
+
+
+
+
