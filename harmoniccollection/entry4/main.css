@@ -111,15 +111,18 @@ td.hoverable:hover{
 	  text-align: center;
 	  line-height: 0.8}
 
+
+
 a{font-size: 22px;
 color: black;
-font-family: sans-serif;}
+font-family: sans-serif;
+text-decoration: none;
+}
 a:hover{color:white;}
 
-.sticker{ 
-	display:flex;
-	justify-content:center; 
-	left: 50px}
+.sticker {display: flex;
+	margin-top: 160px;
+}
 
 .circle1{width: 190px;
         height: 140px;
@@ -129,13 +132,14 @@ a:hover{color:white;}
         align-items: center;
         justify-content: center;
         color: black;
+        margin-left: -350px;
 /*        position: absolute;*/
 /*        transform: translate(250px,1778px);*/
         font-size: 22px;
         font-family: sans-serif;
         }
 .link1:hover{border-bottom: 2px solid;
-			color: #FBEAEB;
+			color: white;
 }
 
 .circle2{width: 260px;
@@ -151,7 +155,7 @@ a:hover{color:white;}
 		font-size: 22px;
 		font-family: sans-serif;}
 .link2:hover{border-bottom: 2px solid;
-			color: #FBEAEB;
+			color: white;
 }
 
 .circle3{width: 230px;
@@ -167,7 +171,7 @@ a:hover{color:white;}
 		font-size: 22px;
 		font-family: sans-serif;}
 .link3:hover{border-bottom: 2px solid;
-			color: #FBEAEB;
+			color: white;
 }
 
 
@@ -184,7 +188,7 @@ a:hover{color:white;}
 		font-size: 22px;
 		font-family: sans-serif;}
 .link4:hover{border-bottom: 2px solid;
-			color: #FBEAEB;
+			color: white;
 }
 
 
@@ -201,29 +205,37 @@ a:hover{color:white;}
 		font-size: 22px;
 		font-family: sans-serif;}
 .link5:hover{border-bottom: 2px solid;
-			color: #FBEAEB;
+			color: white;
 }
 
 
 .line3{border: 1px solid #FBEAEB;
 	width: 100%;
 	margin: 0 auto;
-	margin-top: 40vh;
+	margin-top: 8vh;
 }
 
 
 .line4{border: 1px solid#2F3C7E;
 	width: 100%;
 	margin: 0 auto;
-	margin-bottom:14vh;
-	transform: translate(-550px,184px);}
+	margin-bottom:0vh;
+/*	transform: translate(-550px,184px);*/
+}
 
 .bottom{font-size: 20px;
 		font-family: sans-serif;
 		text-align: center;
 		color: #2F3C7E;
-		transform: translate(-549px,40px);
+/*		transform: translate(-549px,40px);*/
+		margin-bottom: 1vh;
 		}
+
+.home{font-size: 20px;
+	color: #2F3C7E;
+	font-family: sans-serif;
+	text-decoration: none;}
+.home:hover{color: white;}
 
 
 
