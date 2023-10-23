@@ -36,124 +36,105 @@ body{background-color: #FFF8DA;
 img{position: absolute;}
 
 
-
-@keyframes shake1{
-	0%{transform: translate(-20px,94px) rotate(0deg);}
-	20%{transform: translate(-23px,95px) rotate(1deg);}
-	40%{transform: translate(-20px,95px) rotate(1deg);}
-	60%{transform: translate(-21px,95px) rotate(1deg);}
-	80%{transform: translate(-18px,94px) rotate(1deg);}
-	100%{transform: translate(-16px,94px) rotate(0deg);}
-	}
-
-@keyframes shake2{
-	0%{transform: translate(45px,379px) rotate(0deg);}
-	20%{transform: translate(42px,380px) rotate(1deg);}
-	40%{transform: translate(45px,380px) rotate(1deg);}
-	60%{transform: translate(44px,380px) rotate(1deg);}
-	80%{transform: translate(47px,379px) rotate(1deg);}
-	100%{transform: translate(49px,379px) rotate(0deg);}
-	}
-
-.photo1{max-width: 15.5%;
-		transform: translate(-20px,95px) rotate(5deg);}
+.photo1{max-width: 14.5%;
+		transform: translate(-20px,110px) rotate(5deg);}
 .photo1:hover{animation: shake1 0.4s linear infinite;}
 
-.photo2{max-width: 22%;
-		transform: translate(45px,380px);}
+.photo2{max-width: 18%;
+		transform: translate(60px,375px);}
 .photo2:hover{animation: shake2 0.4s infinite;}
 
-.photo3{max-width: 20%;
-		transform: translate(370px,140px);
+.photo3{max-width: 18%;
+		transform: translate(400px,175px);
 		z-index: 2}
 
 .photo5{max-width: 20%;
-		transform: translate(280px,340px) rotate(-40deg);}
+		transform: translate(280px,336px) rotate(-40deg);}
 
-.photo6{max-width: 20%;
-		transform: translate(220px,20px);
+.photo6{max-width: 18%;
+		transform: translate(240px,90px);
 		z-index: 1}
 
-.photo7{max-width: 20%;
-		transform: translate(90px,220px);}
+.photo7{max-width: 18%;
+		transform: translate(100px,235px);}
 
-.photo9{max-width: 26%;
-		transform: translate(-53px,600px);}
+.photo9{max-width: 21%;
+		transform: translate(-53px,615px);}
 
-.photo15{max-width: 17%;
-		transform: translate(150px,810px);
+.photo15{max-width: 14%;
+		transform: translate(270px,885px);
 		z-index: 4}
 
-.photo17{max-width: 20%;
-		transform: translate(430px,500px) rotate(-5deg);}
+.photo17{max-width: 13%;
+		transform: translate(460px,515px) rotate(-5deg);}
 
-.photo19{max-width: 29%;
-		transform: translate(228px,650px) rotate(10deg);}
+.photo19{max-width: 24%;
+		transform: translate(228px,665px) rotate(10deg);}
 
-.photo22{max-width: 20%;
-		transform: translate(400px,790px) rotate(10deg);}
+.photo22{max-width: 16%;
+		transform: translate(430px,805px) rotate(5deg);}
 
-.photo25{max-width: 35%;
-		transform: translate(-100px,940px);
+.photo25{max-width: 29%;
+		transform: translate(-50px,955px);
 		z-index:3}
 
-.photo21{max-width: 26%;
-		transform: translate(190px,1040px) rotate(-5deg);
+.photo21{max-width: 24.5%;
+		transform: translate(190px,1105px) rotate(-5deg);
 		z-index: 5;}
 
-.photo27{max-width: 22%;
-		transform: translate(350px,1270px) rotate(15deg);
+.photo27{max-width: 19%;
+		transform: translate(350px,1295px) rotate(15deg);
 		z-index: 6}
 
-.photo29{max-width: 28%;
-		transform: translate(-60px,1110px);}		
+.photo29{max-width: 25%;
+		transform: translate(-40px,1180px);}		
 
 
 
-.photo4{max-width: 20%;
-		transform: translate(1200px,100px);}
+.photo4{max-width: 18%;
+		transform: translate(1250px,100px);}
 
-.photo10{max-width: 20%;
+.photo10{max-width: 19%;
 		transform: translate(1245px,360px) rotate(15deg);}
 
-.photo11{max-width: 22%;
-		transform: translate(930px,190px);}
+.photo11{max-width: 19%;
+		transform: translate(1000px,200px);}
 
-.photo12{max-width: 28%;
-		transform: translate(750px,400px);}
+.photo12{max-width: 17%;
+		transform: translate(830px,400px);}
 
-.photo13{max-width: 17%;
+.photo13{max-width: 14%;
 		transform: translate(1000px,80px) rotate(45deg);}
 
-.photo16{max-width: 23%;
+.photo16{max-width: 20%;
 		transform: translate(950px,690px);}
 
-.photo18{max-width: 22%;
+.photo18{max-width: 18%;
 		transform: translate(1050px,440px) rotate(-10deg);}
 
-.photo20{max-width: 18%;
-		transform: translate(780px,90px);}
+.photo20{max-width: 13%;
+		transform: translate(830px,110px);}
 
-.photo23{max-width: 23%;
-		transform: translate(800px,890px);}
+.photo23{max-width: 15%;
+		transform: translate(850px,890px);}
 
-.photo14{max-width: 15.5%;
+.photo14{max-width: 14.5%;
 		transform: translate(1278px,600px) rotate(5deg);}
 
-.photo28{max-width: 20%;
-		transform: translate(1180px,890px);}
+.photo28{max-width: 18%;
+		transform: translate(1180px,950px);}
 
-.photo26{max-width: 25%;
-		transform: translate(810px,1090px) rotate(-15deg);}
+.photo26{max-width: 19%;
+		transform: translate(860px,1140px) rotate(-10deg);}
 
-.photo32{max-width: 17%;
-		transform: translate(1150px,1290px);
+.photo32{max-width: 15%;
+		transform: translate(1150px,1350px);
 		z-index: 2}
 
-.photo8{max-width: 20%;
-		transform: translate(1000px,1050px);}
+.photo8{max-width: 16.5%;
+		transform: translate(1000px,1040px);}
 
-.photo24{max-width: 25%;
+.photo24{max-width: 22%;
 		transform: translate(1250px,1050px);\
 		z-index: 1}
 
@@ -180,7 +161,8 @@ img{position: absolute;}
 
 a{font-size: 22px;
 color: black;
-font-family: sans-serif;}
+font-family: sans-serif;
+text-decoration: none;}
 a:hover{color: white;}
 
 .wrapper {
@@ -190,6 +172,7 @@ a:hover{color: white;}
 .sticker {
 	display:flex;
 	justify-content:center;
+	font-weight: 500;
 }
 
 .circle1{width: 190px;
@@ -287,19 +270,20 @@ a:hover{color: white;}
 
 .bottom1{font-size: 20px;
 color: #F96167;
-font-family: sans-serif;}
+font-family: sans-serif;
+text-decoration: none;}
 .bottom1:hover{color: white;}
 
 
-.line2{border: 1px solid #F96167;
+.line2{border: 1px solid #FFF8DA;
 	width: 100%;
 	margin: 0 auto;
-	margin-bottom: 0.7vh;
-	transform: translate(0px, 1884.7px);
+	margin-bottom: 238vh;
+/*	transform: translate(0px, 1884.7px);*/
 }
 
-.line3{border: 0.2px solid #F9E795;
+.line3{border: 1px solid #F96167;
 	width: 100%;
-	margin: 0 auto;
-	transform: translate(0px, 1885px);
+	padding-bottom: 0 auto;
+/*	transform: translate(0px, 1885px);*/
 }
