@@ -102,6 +102,7 @@ td.hoverable:hover{
 
 	}
 
+
 .end{transform: translate(-550px,110px);
 	  font-size: 40px;
 	  color:#2F3C7E;
@@ -110,19 +111,26 @@ td.hoverable:hover{
 	  text-align: center;
 	  line-height: 0.8}
 
-.sticker{position: absolute;}
+a{font-size: 22px;
+color: black;
+font-family: sans-serif;}
+a:hover{color:white;}
+
+.sticker{ 
+	display:flex;
+	justify-content:center; 
+	left: 50px}
 
 .circle1{width: 190px;
-        height: 120px;
-        background-color: #E56B45;
+        height: 140px;
+        background-color: #D1E26A;
         border-radius: 50%;
         display: flex;
         align-items: center;
         justify-content: center;
         color: black;
-        position: absolute;
-        bottom: -270px;
-        left: -280px;
+/*        position: absolute;*/
+/*        transform: translate(250px,1778px);*/
         font-size: 22px;
         font-family: sans-serif;
         }
@@ -138,9 +146,8 @@ td.hoverable:hover{
 		align-items: center;
 		justify-content: center;
 		color: black;
-		position: absolute;
-		bottom: -300px;
-		left: -70px;
+/*		position: absolute;*/
+/*		transform: translate(400px,1770px);*/
 		font-size: 22px;
 		font-family: sans-serif;}
 .link2:hover{border-bottom: 2px solid;
@@ -155,9 +162,8 @@ td.hoverable:hover{
 		align-items: center;
 		justify-content: center;
 		color: black;
-		position: absolute;
-		bottom: -225px;
-		left: 100px;
+/*		position: absolute;*/
+/*		transform: translate(650px,1855px);*/
 		font-size: 22px;
 		font-family: sans-serif;}
 .link3:hover{border-bottom: 2px solid;
@@ -173,9 +179,8 @@ td.hoverable:hover{
 		align-items: center;
 		justify-content: center;
 		color: black;
-		position: absolute;
-		bottom: -230px;
-		left: 310px;
+/*		position: absolute;*/
+/*		transform: translate(800px,1775px);*/
 		font-size: 22px;
 		font-family: sans-serif;}
 .link4:hover{border-bottom: 2px solid;
@@ -191,9 +196,8 @@ td.hoverable:hover{
 		align-items: center;
 		justify-content: center;
 		color: black;
-		position: absolute;
-		bottom: -260px;
-		left: 520px;
+/*		position: absolute;*/
+/*		transform: translate(1010px,1810px);*/
 		font-size: 22px;
 		font-family: sans-serif;}
 .link5:hover{border-bottom: 2px solid;

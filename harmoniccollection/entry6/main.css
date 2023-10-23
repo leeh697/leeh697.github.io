@@ -150,12 +150,19 @@ body{background: #8AAAE5;
 	transform: translate(0px,200px);
 	line-height: 0.8}
 
-.sticker{position: absolute;}
-
 a{font-size: 22px;
 color: black;
 font-family: sans-serif;}
-a:hover{color:white}
+a:hover{color: white;}
+
+.wrapper {
+/*	max-width:960px; */
+}
+
+.sticker {
+	display:flex;
+	justify-content:center;
+}
 
 .circle1{width: 190px;
         height: 140px;
@@ -165,10 +172,14 @@ a:hover{color:white}
         align-items: center;
         justify-content: center;
         color: black;
-        transform: translate(250px,240px);
+/*        position: absolute;*/
+/*        transform: translate(250px,1778px);*/
         font-size: 22px;
         font-family: sans-serif;
         }
+.link1:hover{border-bottom: 2px solid;
+			color: #FBEAEB;
+}
 
 .circle2{width: 260px;
 		height: 110px;
@@ -178,9 +189,13 @@ a:hover{color:white}
 		align-items: center;
 		justify-content: center;
 		color: black;
-		transform: translate(400px,150px);
+/*		position: absolute;*/
+/*		transform: translate(400px,1770px);*/
 		font-size: 22px;
 		font-family: sans-serif;}
+.link2:hover{border-bottom: 2px solid;
+			color: #FBEAEB;
+}
 
 .circle3{width: 230px;
 		height: 90px;
@@ -190,9 +205,14 @@ a:hover{color:white}
 		align-items: center;
 		justify-content: center;
 		color: black;
-		transform: translate(650px,30px);
+/*		position: absolute;*/
+/*		transform: translate(650px,1855px);*/
 		font-size: 22px;
 		font-family: sans-serif;}
+.link3:hover{border-bottom: 2px solid;
+			color: #FBEAEB;
+}
+
 
 .circle4{width: 200px;
 		height: 100px;
@@ -202,9 +222,14 @@ a:hover{color:white}
 		align-items: center;
 		justify-content: center;
 		color: black;
-		transform: translate(800px,-100px);
+/*		position: absolute;*/
+/*		transform: translate(800px,1775px);*/
 		font-size: 22px;
 		font-family: sans-serif;}
+.link4:hover{border-bottom: 2px solid;
+			color: #FBEAEB;
+}
+
 
 .circle5{width: 170px;
 		height: 90px;
@@ -214,9 +239,14 @@ a:hover{color:white}
 		align-items: center;
 		justify-content: center;
 		color: black;
-		transform: translate(1010px,-150px);
+/*		position: absolute;*/
+/*		transform: translate(1010px,1810px);*/
 		font-size: 22px;
 		font-family: sans-serif;}
+.link5:hover{border-bottom: 2px solid;
+			color: #FBEAEB;
+}
+
 
 
 .bottom{font-size: 20px;
