@@ -126,7 +126,7 @@ a:hover{color:white;}
 
 .circle1{width: 190px;
         height: 140px;
-        background-color: #F96167;
+        background-color: #f16646;
         border-radius: 50%;
         display: flex;
         align-items: center;
@@ -144,7 +144,7 @@ a:hover{color:white;}
 
 .circle2{width: 260px;
 		height: 110px;
-		background-color: #5BA9DD;
+		background-color: #2BAE66;
 		border-radius: 50%;
 		display: flex;
 		align-items: center;

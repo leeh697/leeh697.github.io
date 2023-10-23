@@ -1,5 +1,11 @@
 body{background-color: #EFEFEF}
 
+.one{text-decoration: none;
+        color: black;}
+
+.two{text-decoration: none;
+        color: white;}
+
 .feeling1{width: 800px;
          height: 90px;
          background-color: #FFFFFF;
@@ -12,7 +18,8 @@ body{background-color: #EFEFEF}
          top: 0px;
          left: 0px;
          font-size: 38px;
-         font-family: sans-serif;}
+         font-family: sans-serif;
+        text-decoration: none;}
 .link1:hover{
         border-bottom: 2px solid;
         color: black;}
@@ -29,14 +36,19 @@ body{background-color: #EFEFEF}
          top: 0px;
          right: 0px;
          font-size: 38px;
-         font-family: sans-serif;}
+         font-family: sans-serif;
+        text-decoration: none;}
 .link2:hover{
         border-bottom: 2px solid;
         color: white;}
 
-.circle1{width: 400px;
-        height: 400px;
-        background-color: #E56B45;
+
+a{text-decoration: none;
+ color: black;}
+
+.circle1{width: 450px;
+        height: 420px;
+        background-color: #f7d5d7;
         border-radius: 50%;
         display: flex;
         align-items: center;
@@ -47,7 +59,10 @@ body{background-color: #EFEFEF}
         left: 50px;
         font-size: 38px;
         font-family: serif;
+        text-decoration: none;
         }
+.circle1:hover{border-bottom: 2px solid;
+        color: black;}
 
 .circle2{width: 350px;
          height: 250px;
@@ -61,11 +76,14 @@ body{background-color: #EFEFEF}
          top: 130px;
          left: 150px;
          font-size: 38px;
-         font-family: cursive;}
+         font-family: cursive;
+        text-decoration: none;}
+.circle2:hover{border-bottom: 2px solid;
+        color: black;}
 
 .circle3{width: 400px;
          height: 400px;
-         background-color: #5BA9DD;
+         background-color: #2BAE66;
          border-radius: 50%;
          display: flex;
          align-items: center;
@@ -75,11 +93,14 @@ body{background-color: #EFEFEF}
          bottom: 225px;
          left: 455px;
          font-size: 38px;
-         font-family: monospace;}
+         font-family: monospace;
+        text-decoration: none;}
+.circle3:hover{border-bottom: 2px solid;
+        color: black;}
 
 .circle4{width: 450px;
          height: 450px;
-         background-color: #EC9FE1;
+         background-color: #8AAAE5;
          border-radius: 50%;
          display: flex;
          align-items: center;
@@ -89,11 +110,14 @@ body{background-color: #EFEFEF}
          bottom: 65px;
          right: 10px;
          font-size: 38px;
-         font-family: fantasy;}
+         font-family: fantasy;
+        text-decoration: none;}
+.circle4:hover{border-bottom: 2px solid;
+        color: black;}
 
 .circle5{width: 650px;
          height: 230px;
-         background-color: #D1E26A;
+         background-color: #f16646;
          border-radius: 50%;
          display: flex;
          align-items: center;
@@ -103,11 +127,14 @@ body{background-color: #EFEFEF}
          bottom: 65px;
          left: 500px;
          font-size: 38px;
-         font-family: cursive;}
+         font-family: cursive;
+        text-decoration: none;}
+.circle5:hover{border-bottom: 2px solid;
+        color: black;} 
 
 .circle6{width: 380px;
         height: 250px;
-        background-color: #E56B45;
+        background-color: #FC766A;
         border-radius: 50%;
         display: flex;
         align-items: center;
@@ -118,5 +145,8 @@ body{background-color: #EFEFEF}
         right: 300px;
         font-size: 38px;
         font-family: sans-serif;
+        text-decoration: none;
         }
+.circle6:hover{border-bottom: 2px solid;
+        color: black;}
 

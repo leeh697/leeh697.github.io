@@ -194,7 +194,7 @@ a:hover{color: white;}
 
 .circle2{width: 260px;
 		height: 110px;
-		background-color: #5BA9DD;
+		background-color: #2BAE66;
 		border-radius: 50%;
 		display: flex;
 		align-items: center;
@@ -254,7 +254,7 @@ a:hover{color: white;}
 /*		transform: translate(1010px,1810px);*/
 		font-size: 22px;
 		font-family: sans-serif;}
-.link5:hover{border-bottom: 2px solid;
+.link5:hover{border-bottomc: 2px solid;
 			color: white;
 }
 
@@ -269,7 +269,7 @@ a:hover{color: white;}
 
 
 .bottom1{font-size: 20px;
-color: #F96167;
+color: #EF522E;
 font-family: sans-serif;
 text-decoration: none;}
 .bottom1:hover{color: white;}
@@ -282,7 +282,7 @@ text-decoration: none;}
 /*	transform: translate(0px, 1884.7px);*/
 }
 
-.line3{border: 1px solid #F96167;
+.line3{border: 1px solid #EF522E;
 	width: 100%;
 	padding-bottom: 0 auto;
 /*	transform: translate(0px, 1885px);*/
