@@ -1,0 +1,56 @@
+.container{height: 575px;
+        width: 1500px;
+        display: table-cell;
+        text-align: center;
+        vertical-align: middle;
+        border: 150px solid black;
+        font-family: sans-serif;
+        border: black;}
+
+
+.item{
+        margin: 10px;
+        width: 160px;
+        height: 80px;
+        border-radius: 50%;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: white;
+        left: 1000px;
+        font-family: sans-serif;}
+
+a{text-decoration: none;
+color: white;}
+a:hover{border-bottom: 2px solid;
+        color: white;}
+
+.sticker{display: flex;
+justify-content: center;
+transform: translate(0px,-204px);}
+
+
+.circle1{margin: 10px;
+        width: 160px;
+        height: 80px;
+        border-radius: 50%;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: white;
+        left: 1000px;
+        font-family: sans-serif;}
+
+
+
+
+
+
+
+
+
+
