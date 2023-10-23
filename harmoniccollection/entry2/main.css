@@ -1,10 +1,11 @@
-body{background-color: #EFEFEF}
+body{background-color: #EFEFEF;}
 
 .one{text-decoration: none;
         color: black;}
 
 .two{text-decoration: none;
-        color: white;}
+        color: white;
+        transform: translate(0px,200px);}
 
 .feeling1{width: 800px;
          height: 90px;
@@ -46,8 +47,13 @@ body{background-color: #EFEFEF}
 a{text-decoration: none;
  color: black;}
 
-.circle1{width: 440px;
-        height: 410px;
+ .sticker{display:flex;
+        display: inline;
+        justify-content: center;}
+
+
+.circle1{width: 430px;
+        height: 400px;
         background-color: #f7d5d7;
         border-radius: 50%;
         display: flex;
@@ -55,7 +61,7 @@ a{text-decoration: none;
         justify-content: center;
         color: black;
 /*        position: absolute;*/
-        margin-top: 314px;
+        margin-top: 344px;
         margin-left: 41.5px;
         font-size: 38px;
         font-family: serif;
@@ -64,8 +70,8 @@ a{text-decoration: none;
 .circle1:hover{border-bottom: 2px solid;
         color: black;}
 
-.circle2{width: 340px;
-         height: 240px;
+.circle2{width: 330px;
+         height: 230px;
          background-color: #D1E26A;
          border-radius: 50%;
          display: flex;
@@ -81,8 +87,8 @@ a{text-decoration: none;
 .circle2:hover{border-bottom: 2px solid;
         color: black;}
 
-.circle3{width: 390px;
-         height: 390px;
+.circle3{width: 380px;
+         height: 380px;
          background-color: #2BAE66;
          border-radius: 50%;
          display: flex;
@@ -98,8 +104,8 @@ a{text-decoration: none;
 .circle3:hover{border-bottom: 2px solid;
         color: black;}
 
-.circle4{width: 440px;
-         height: 440px;
+.circle4{width: 430px;
+         height: 430px;
          background-color: #8AAAE5;
          border-radius: 50%;
          display: flex;
@@ -115,8 +121,8 @@ a{text-decoration: none;
 .circle4:hover{border-bottom: 2px solid;
         color: black;}
 
-.circle5{width: 640px;
-         height: 220px;
+.circle5{width: 630px;
+         height: 210px;
          background-color: #f16646;
          border-radius: 50%;
          display: flex;
@@ -124,7 +130,7 @@ a{text-decoration: none;
          justify-content: center;
          color: black;
 /*         position: absolute;*/
-         margin-top: -225px;
+         margin-top: -205px;
          margin-left: 493px;
          font-size: 38px;
          font-family: cursive;
@@ -132,8 +138,8 @@ a{text-decoration: none;
 .circle5:hover{border-bottom: 2px solid;
         color: black;} 
 
-.circle6{width: 370px;
-        height: 240px;
+.circle6{width: 360px;
+        height: 230px;
         background-color: #FC766A;
         border-radius: 50%;
         display: flex;
@@ -141,7 +147,7 @@ a{text-decoration: none;
         justify-content: center;
         color: black;
 /*        position: absolute;*/
-        margin-top: -540px;
+        margin-top: -500px;
         margin-left: 820px;
         font-size: 38px;
         font-family: sans-serif;
@@ -154,15 +160,26 @@ a{text-decoration: none;
 .bottom{font-size: 20px;
         font-family: sans-serif;
         text-align: center;
-        color: black;
+        color: bslack;
         margin-top: 370px;}
 
 
 .bottom1{font-size: 20px;
 color: black;
 font-family: sans-serif;
+padding-bottom: 0px;
 text-decoration: none;}
 .bottom1:hover{color: white;}
+
+.line2{border: 1px solid white;
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 0.5vh;
+}
+
+.line3{border: 1px solid black;
+        width: 100%;
+        padding-bottom: -10 auto;}
 
 
 
