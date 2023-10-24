@@ -63,9 +63,10 @@ a{text-decoration: none;
 /*        position: absolute;*/
         margin-top: 344px;
         margin-left: 41.5px;
-        font-size: 38px;
-        font-family: serif;
+        font-size: 30px;
+        font-family: sans-serif;
         text-decoration: none;
+        border: 1px solid black;
         }
 .circle1:hover{border-bottom: 2px solid;
         color: black;}
@@ -81,9 +82,10 @@ a{text-decoration: none;
 /*         position: absolute;*/
          margin-top: -600px;
          margin-left: 140px;
-         font-size: 38px;
-         font-family: cursive;
-        text-decoration: none;}
+         font-size: 30px;
+         font-family: sans-serif;
+        text-decoration: none;
+        border: 1px solid black;}
 .circle2:hover{border-bottom: 2px solid;
         color: black;}
 
@@ -98,9 +100,10 @@ a{text-decoration: none;
 /*         position: absolute;*/
          margin-top: -216px;
          margin-left: 447px;
-         font-size: 38px;
-         font-family: monospace;
-        text-decoration: none;}
+         font-size: 30px;
+         font-family: sans-serif;
+        text-decoration: none;
+        border: 1px solid black;}
 .circle3:hover{border-bottom: 2px solid;
         color: black;}
 
@@ -115,9 +118,10 @@ a{text-decoration: none;
 /*         position: absolute;*/
          margin-top: -289px;
          margin-left: 1044px;
-         font-size: 38px;
-         font-family: fantasy;
-        text-decoration: none;}
+         font-size: 30px;
+         font-family: sans-serif;
+        text-decoration: none;
+        border: 1px solid black;}
 .circle4:hover{border-bottom: 2px solid;
         color: black;}
 
@@ -132,9 +136,10 @@ a{text-decoration: none;
 /*         position: absolute;*/
          margin-top: -205px;
          margin-left: 493px;
-         font-size: 38px;
-         font-family: cursive;
-        text-decoration: none;}
+         font-size: 30px;
+         font-family: sans-serif;
+        text-decoration: none;
+        border: 1px solid black;}
 .circle5:hover{border-bottom: 2px solid;
         color: black;} 
 
@@ -149,9 +154,10 @@ a{text-decoration: none;
 /*        position: absolute;*/
         margin-top: -500px;
         margin-left: 820px;
-        font-size: 38px;
+        font-size: 30px;
         font-family: sans-serif;
         text-decoration: none;
+        border: 1px solid black;
         }
 .circle6:hover{border-bottom: 2px solid;
         color: black;}
@@ -161,7 +167,7 @@ a{text-decoration: none;
         font-family: sans-serif;
         text-align: center;
         color: bslack;
-        margin-top: 370px;}
+        margin-top: 370px;}s
 
 
 .bottom1{font-size: 20px;
