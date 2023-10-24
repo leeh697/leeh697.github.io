@@ -152,7 +152,8 @@ body{background: #8AAAE5;
 
 a{font-size: 22px;
 color: black;
-font-family: sans-serif;}
+font-family: sans-serif;
+text-decoration: none;}
 a:hover{color: white;}
 
 .wrapper {
@@ -162,7 +163,7 @@ a:hover{color: white;}
 .sticker {
 	display:flex;
 	justify-content:center;
-}
+	transform: translate(0px,210px);}
 
 .circle1{width: 190px;
         height: 140px;
@@ -178,7 +179,7 @@ a:hover{color: white;}
         font-family: sans-serif;
         }
 .link1:hover{border-bottom: 2px solid;
-			color: #FBEAEB;
+			color: white;
 }
 
 .circle2{width: 260px;
@@ -194,7 +195,7 @@ a:hover{color: white;}
 		font-size: 22px;
 		font-family: sans-serif;}
 .link2:hover{border-bottom: 2px solid;
-			color: #FBEAEB;
+			color: white;
 }
 
 .circle3{width: 230px;
@@ -210,7 +211,7 @@ a:hover{color: white;}
 		font-size: 22px;
 		font-family: sans-serif;}
 .link3:hover{border-bottom: 2px solid;
-			color: #FBEAEB;
+			color: white;
 }
 
 
@@ -227,7 +228,7 @@ a:hover{color: white;}
 		font-size: 22px;
 		font-family: sans-serif;}
 .link4:hover{border-bottom: 2px solid;
-			color: #FBEAEB;
+			color: white;
 }
 
 
@@ -244,7 +245,7 @@ a:hover{color: white;}
 		font-size: 22px;
 		font-family: sans-serif;}
 .link5:hover{border-bottom: 2px solid;
-			color: #FBEAEB;
+			color: white;
 }
 
 
@@ -253,18 +254,25 @@ a:hover{color: white;}
 		font-family: sans-serif;
 		text-align: center;
 		color: #FCF6F5;
-		transform: translate(0px,515px);}
+		transform: translate(0px,325px);}
+
+.bottom1{font-size: 20px;
+color: white;
+font-family: sans-serif;
+text-decoration: none;}
+.bottom1:hover{color: black;}
+
 
 .line2{border: 1px solid #FCF6F5;
 	width: 100%;
 	margin: 0 auto;
 	margin-bottom: 0.7vh;
-	transform: translate(0px, 522.7px);}
+	transform: translate(0px, 332.7px);}
 
 .line3{border: 0.2px solid #8AAAE5;
 	width: 100%;
 	margin: 0 auto;
-	transform: translate(0px, 523px);}
+	transform: translate(0px, 333px);}
 
 
 
