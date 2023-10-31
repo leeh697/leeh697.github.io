@@ -1,4 +1,5 @@
-body{background-color: #FFF8DA;
+body{
+	background-color: #FFF8DA;
 	overflow-x: hidden;
 	background-size: 100%;
 	transform: translate(0px, 0px);
@@ -14,6 +15,7 @@ body{background-color: #FFF8DA;
 	font-family: sans-serif;
 	text-align: center;
 	color: #EF522E;}
+
 
 .middle-box{
 	width: 120px;
