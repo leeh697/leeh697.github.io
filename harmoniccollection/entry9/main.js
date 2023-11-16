@@ -3,4 +3,6 @@ card.addEventListener("click",function(e){
 	card.classList.toggle('is-flipped');
 });
 
-alert('Have you finished the assignments?!')
+function showAlert() {
+	alert('HAVE YOU FINISHED UPCOMING ASSIGNMENTS?!');
+    }
