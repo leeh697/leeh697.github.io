@@ -1,0 +1,10 @@
+body{
+  background-color: purple;
+  color: white;
+  font-family: monospace;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 23px;
+}
