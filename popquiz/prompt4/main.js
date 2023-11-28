@@ -12,17 +12,19 @@ function displayDate() {
   //Appends the “dateDiv” as a child to the container of your document
   let randColor = colors[Math.floor(Math.random()*(colors.length-1))];
 
-  container.appendChild(dateDiv);
-  //Adds a class to your dateDiv
-  dateDiv.classList.add('date');
-  //Sets the “innerHTML” of “dateDiv” to be the variable for your date
-  dateDiv.innerHTML = date;
 
   //appends the "otherText" to the container
   container.appendChild(otherText);
   otherText.classList.add("other");
   otherText.innerHTML = "Right now it is ...";
   dateDiv.style.color = randColor;
+
+  container.appendChild(dateDiv);
+  //Adds a class to your dateDiv
+  dateDiv.classList.add('date');
+  //Sets the “innerHTML” of “dateDiv” to be the variable for your date
+  dateDiv.innerHTML = date;
+  
 }
 
 
