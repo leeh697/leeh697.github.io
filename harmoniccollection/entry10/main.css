@@ -62,7 +62,7 @@ li {
   font-family: sans-serif;
   font-weight: bold;
   text-align: center;
-  transform: translate(0px,1050px);
+  transform: translate(0px,865px);
   line-height: 0.8}
 
 
@@ -173,7 +173,7 @@ a:hover{color: white;}
     font-family: sans-serif;
     text-align: center;
     color: #7b6ae2;
-    transform: translate(0px,1177px);
+    transform: translate(0px,977px);
   }
 
 
@@ -187,7 +187,7 @@ text-decoration: none;}
 .line2{border: 1px solid #D1E26A;
   width: 100%;
   margin: 0 auto;
-  margin-bottom: 148vh;
+  margin-bottom: 123vh;
 /*  transform: translate(0px, 1884.7px);*/
 }
 
