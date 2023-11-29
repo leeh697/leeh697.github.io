@@ -429,7 +429,7 @@ a:hover{color: white;}
 
 .circle2{width: 260px;
 		height: 110px;
-		background-color: #E56B45;
+		background-color: #f16646;
 		border-radius: 50%;
 		display: flex;
 		align-items: center;
@@ -479,7 +479,7 @@ a:hover{color: white;}
 
 .circle5{width: 170px;
 		height: 90px;
-		background-color: #E56B45;
+		background-color: #FC766A;
 		border-radius: 50%;
 		display: flex;
 		align-items: center;
@@ -521,12 +521,9 @@ text-decoration: none;}
 	border: 1px solid #FCF6F5;
 	width: 100%;
 	margin-bottom: 0 auto;
-	transform: translate(0px, 3303px);
+	transform: translate(0px, 3328px);
 	z-index: 1;
 }
-
-
-
 
 
 
