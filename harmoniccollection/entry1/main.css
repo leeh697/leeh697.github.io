@@ -9,7 +9,7 @@
 
 .item{
         margin: 13px;
-        width: 160px;
+        width: 200px;
         height: 80px;
         border-radius: 50%;
         background-color: black;
@@ -45,7 +45,7 @@ justify-content: center;
 
 
 .circle1{margin: 13px;
-        width: 160px;
+        width: 200px;
         height: 80px;
         border-radius: 50%;
         background-color: black;
