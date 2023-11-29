@@ -48,6 +48,12 @@ body{
 	cursor: pointer;
 }
 
+@media (max-width:850px){
+	#telephone {max-width:90%;
+			align-content: center;
+			margin-top: -50px;}
+}
+
 table{
 /*	width: 2500px;*/
 /*	height: 800px;*/
