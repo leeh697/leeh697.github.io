@@ -114,7 +114,7 @@ a:hover{color: white;}
 
 .circle1{width: 190px;
         height: 140px;
-        background-color: #D1E26A;
+        background-color: #f7d5d7;
         border-radius: 50%;
         display: flex;
         align-items: center;
@@ -131,7 +131,7 @@ a:hover{color: white;}
 
 .circle2{width: 260px;
 		height: 110px;
-		background-color: #5BA9DD;
+		background-color: #2BAE66;
 		border-radius: 50%;
 		display: flex;
 		align-items: center;
@@ -147,7 +147,7 @@ a:hover{color: white;}
 
 .circle3{width: 230px;
 		height: 90px;
-		background-color: #EC9FE1;
+		background-color: #f16646;
 		border-radius: 50%;
 		display: flex;
 		align-items: center;
@@ -164,7 +164,7 @@ a:hover{color: white;}
 
 .circle4{width: 200px;
 		height: 100px;
-		background-color: #D1E26A;
+		background-color: #8AAAE5;
 		border-radius: 50%;
 		display: flex;
 		align-items: center;
@@ -181,7 +181,7 @@ a:hover{color: white;}
 
 .circle5{width: 170px;
 		height: 90px;
-		background-color: #E56B45;
+		background-color: #D1E26A;
 		border-radius: 50%;
 		display: flex;
 		align-items: center;
