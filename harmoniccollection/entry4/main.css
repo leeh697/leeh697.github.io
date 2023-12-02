@@ -1,6 +1,6 @@
 body{background: #FBEAEB;
-/*     overflow-x: hidden;*/
-}
+   	 max-width: 100%;
+     overflow-x: hidden;}
 
 img{max-width: 65%;
 	position: absolute;
@@ -26,7 +26,6 @@ img{max-width: 65%;
 	cursor: pointer;
 	content: url('imgs/eyee-02.png');}
 
-/*PART1 PART1 PART1--------------------------------------------------------*/
 .sleeping{position: absolute;
 		  top:980px;
 		  left: 100px;
@@ -48,20 +47,6 @@ img{max-width: 65%;
     	  font-family: 'Space Grotesk', sans-serif;
 		  transform: translate(115px,500px);}
 
-@media(max-width:700px){
-	.sleeping{font-size: 30px;
-		top: 700px;
-			left: 25px;}
-	.box1{margin-left: -70px;
-		width: 460px;
-		height: 380px;
-		margin-top: -285px;}
-	.box1text{font-size: 18px;
-		margin-left: -71px;
-		margin-top: 140px;}
-}
-
-/*PART2 PART2 PART2--------------------------------------------------------*/
 .timetable{position: absolute;
 		top:980px;
 		left: 763px;
@@ -89,45 +74,6 @@ td.hoverable:hover{
 	font-size: 1.5em;
 }
 
-@media(max-width:1000px){
-	.timetable{
-		font-size:35px;
-		top: 1590px;
-		left: 100px;
-	}
-	table{width: 600px;
-		height: 450px;
-		margin-top: 637px;
-		margin-left: -660px}
-	}
-
-@media(max-width:700px){
-	.timetable{
-		font-size: 30px;
-		top: 1170px;
-		left: 25px;
-	}
-	table{width: 600px;
-		height: 450px;
-		margin-top: 547px;
-		margin-left: -730px}
-
-	}
-
-@media(max-width:600px){
-	.timetable{
-		font-size: 30px;
-		top: 1170px;
-		left: 25px;
-	}
-	table{width: 380px;
-		height: 450px;
-		margin-top: 547px;
-		margin-left: -730px}
-
-	}
-
-/*PART3 PART3 PART3--------------------------------------------------------*/
 .box2{width: 2000px;
 	height: 400px;
 	border: 2px solid;
@@ -156,44 +102,8 @@ td.hoverable:hover{
 
 	}
 
-@media(max-width:1000px){
-	.note{
-		margin-left: -360px;
-	}
-	.line2{
-/*		margin-left: -350px;*/
-	}
-	.note2{margin-left: -350px;}
-	}
 
-@media(max-width:700px){
-	.note{
-		margin-left: -420px;
-	}
-	.line2{
-/*		margin-left: -350px;*/
-	}
-	.note2{margin-left: -420px;}
-	}
-
-@media(max-width:600px){
-	.note{size: 18px;
-		margin-left: -420px;
-	}
-	.line2{
-/*		margin-left: -350px;*/
-	}
-	.note2{size: 18px;
-		margin-left: -420px;}
-	}
-
-
-/*PART4 PART4 PART4--------------------------------------------------------*/
-
-
-.end{margin-left: -1097px;
-	margin-top: 55px;
-	position: relative;
+.end{transform: translate(-550px,110px);
 	  font-size: 40px;
 	  color:#2F3C7E;
 	  font-family:sans-serif;
@@ -211,7 +121,7 @@ text-decoration: none;
 a:hover{color:white;}
 
 .sticker {display: flex;
-	margin-top: 60px;
+	margin-top: 160px;
 }
 
 .circle1{width: 190px;
@@ -299,31 +209,6 @@ a:hover{color:white;}
 }
 
 
-@media(max-width:1000px){
-	.end{margin-left: -770px;
-		font-size: 35px;}
-}
-
-@media(max-width:900px){
-	.end{margin-left: -740px;
-		font-size: 30px;}
-}
-
-@media(max-width:770px){
-	.end{margin-left: -755px;
-		font-size: 27px;}
-}
-
-@media(max-width:700px){
-	.end{margin-left: -660px;
-		margin-top: 60px;}
-}
-
-@media(max-width:680px){
-	.end{margin-left: -670px;
-		font-size: 24px;}
-}
-
 .line3{border: 1px solid #FBEAEB;
 	width: 100%;
 	margin: 0 auto;
@@ -352,4 +237,75 @@ a:hover{color:white;}
 	text-decoration: none;}
 .home:hover{color: white;}
 
+@media(max-width:1000px){
+	.timetable{
+		font-size:35px;
+		top: 1590px;
+		left: 100px;
+	}
+	table{width: 600px;
+		height: 450px;
+		margin-top: 637px;
+		margin-left: -660px}
+	.note{
+		margin-left: -360px;
+	}
+	.line2{
+/*		margin-left: -350px;*/
+	}
+	.note2{margin-left: -350px;}
+	.end{margin-left: 340px;
+		line-height: 0.8;}
+	}
 
+@media(max-width:700px){
+	.sleeping{font-size: 30px;
+		top: 700px;
+			left: 25px;}
+	.box1{margin-left: -70px;
+		width: 460px;
+		height: 380px;
+		margin-top: -285px;}
+	.box1text{font-size: 18px;
+		margin-left: -71px;
+		margin-top: 140px;}
+	.timetable{
+		font-size: 30px;
+		top: 1170px;
+		left: 25px;
+	}
+	table{width: 600px;
+		height: 450px;
+		margin-top: 547px;
+		margin-left: -730px}
+	.note{
+		margin-left: -420px;
+	}
+	.line2{
+/*		margin-left: -350px;*/
+	}
+	.note2{margin-left: -420px;}
+	.end{margin-left: 420px;
+		line-height: 0.9;}
+}
+
+
+@media(max-width:600px){
+	.timetable{
+		font-size: 30px;
+		top: 1170px;
+		left: 25px;
+	}
+	table{width: 380px;
+		height: 450px;
+		margin-top: 547px;
+		margin-left: -730px}
+	.note{size: 18px;
+		margin-left: -420px;
+	}
+	.line2{
+/*		margin-left: -350px;*/
+	}
+	.note2{size: 18px;
+		margin-left: -420px;}
+	}
