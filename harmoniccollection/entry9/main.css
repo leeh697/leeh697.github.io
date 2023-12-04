@@ -510,20 +510,13 @@ text-decoration: none;}
 .bottom1:hover{color: #646262;}
 
 
-.line2{border: 1px solid transparent;
-	width: 100%;
-	margin: 0 auto;
-	margin-bottom: -500vh;
-	transform: translate(0px, -658px);
-}
-
 .line3{
 	border: 1px solid #FCF6F5;
 	width: 100%;
-	margin-bottom: 0 auto;
-	transform: translate(0px, 3328px);
-	z-index: 1;
+	margin-top: -84vh;
 }
+
+
 
 
 
